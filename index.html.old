@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Caliopen</title>
+        <meta name="description" content="Caliopen">
+        <meta name="author" content="Skhaen">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/night.css" id="theme"><script></script>
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+
+    
+    <body>
+           <!-- <div class="custom-background"><img src="img/caliopen_pres_background.png" alt=""/></div>-->
+
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                                <section>
+                                    <img src="img/caliopen_logo.png" alt=""/>
+                                </section>
+
+                                <section>
+                                    <p>Il y a presque un an jour pour jour, <a href="http://fr.wikipedia.org/wiki/Edward_Snowden">Edward Snowden</a> dévoilait le programme PRISM.</p>
+                                    <p class="fragment">et depuis ?</p>
+                                    <p class="fragment">rien (ou pas grand chose).</p>
+                                </section>
+
+                                <section>
+                                    <h2>Beaucoup de mots</h2>
+                                    <ul><li>démocratisation des questions de vie privée (et pas seulement de la surveillance des États)</li>
+                                        <li>prise en compte politique (questions au gouvernement, débat au parlement européen, NetMundial...) </li>
+                                        <li>réflexions sur le chiffrement global (IETF, W3C)</li>
+                                    </ul>
+                                </section>
+                
+                                <section>
+                                    <h2>Quelques résultats</h2>
+                                    <p>
+                                    <ul><li><em>explosion</em> du trafic de <a href="https://www.gnupg.org/">GPG</a> et de <a href="https://www.torproject.org/">TOR</a></li>
+                                        <li> beaucoup de projets orientés vers la protection</li>
+                                        <li>Google pourrait favoriser les serveurs chiffrés et proposer le chiffrement des échanges privés</li>
+                                    </ul>
+                                     </p>
+                                    <p>Mais, en pratique, au quotidien, rien n'a changé.</p>
+                                </section>
+
+                                <section>
+                                    <h2>Redéfinir le problème</h2>
+                                        <h3>l'aspect grand-public</h3>
+                                    <ul>
+                                            <li>la vie privée était une affaire de vieux cons : les jeunes cons en ont fait une affaire juteuse</li>
+                                            <li>l'hypercentralisation du Web est un effet pervers du modèle économique gratuité/publicité</li>
+                                            <li>la grande majorité du grand public n'est pas disposée à changer ses usages et ses habitudes</li>
+                                        </ul>
+                                    </p>
+                                </section>
+
+                                <section>
+                                    <p>la sécurité est un des rôles que la collectivité délègue à l'État.</p>
+                                    <p>Mais :</p>
+                                        <ul>
+                                            <li>elle doit respecter les autres libertés fondamentales, surtout en période de crise (fadettes illégales, plaintes contre la NSA...).</li>
+                                            <li>elle doit être proportionnelle au risque : écouter la totalité de la population ce n'est pas de la surveillance, c'est de l'espionnage.</li>
+                                            <li>la conservation des données doit être encadrée.</li>
+                                        </ul>
+                                </section>
+
+                                <section>
+                                <section>
+                                    <h2>Les réponses</h2>
+                                        <ul>
+                                            <li>Politique (respecter la loi)</li>
+                                            <li>Sociales (apprendre et militer)</li>
+                                            <li>Techniques (IETF, audits, développement)</li>
+                                        </ul>
+                                </section>
+
+                                <section>
+                                    <h2>Réponse politique</h2>
+                                        <ul>
+                                            <li>Mieux encadrer les écoutes (LPM), mais pas au prix de les étendre.</li>
+                                            <li>Limiter la coopération entre services (ne pas échanger de données concernant sa propre population)</li>
+                                            <li>Renforcer le contrôle démocratique.</li>
+                                        </ul>
+                                </section>
+                                <section>
+                                    <h2>Réponse sociale</h2>
+                                        <ul>
+                                            <li>Mieux communiquer (feuilletonnage),</li>
+                                            <li>Rappeler l'existence des solutions de protection</li>
+                                            <li>Apprendre à son entourage à mieux se sécuriser.</li>
+                                        </ul>
+                                </section>
+                                <section>
+                                    <h2>Réponse technique</h2>
+                                        <ul>
+                                            <li>Abandonner la croyance en l'empowerment : les outils de sécurisation doivent donner envie d'être utilisés.</li>
+                                            <li>Ne plus imaginer de produits centralisés (SPOF)</li>
+                                            <li>Développer de nouveaux modèles économiques</li>
+                                            <li>La sécurité doit être un principe fondamental</li>
+                                        </ul>
+                                </section>
+                                </section>
+                                <section>
+                                        <p><blockquote>« Essayer d'imaginer un outil qui crée le besoin plutôt qu'un outil qui réponde à un usage existant. »</blockquote>
+                                        <ul>
+                                            <li>Espérer que les scandales à répétition pousseront plus qu'une petite fraction des utilisateurs vers les outils sécurisés est illusoire</li>
+                                            <li>Il faut créer une vraie envie de migrer vers l'outil sécurisé : la sécurité n'est pas une « <em>killer-app</em> » en soi.</li>
+                                            <li>En créant un outil attirant et qui offrira des services différents des outils habituels, on a une petite chance.</li>
+                                        </ul>
+                                </section>
+
+                                <section>
+                                    <p><blockquote>Bruce Schneier : « <em>Ne pas chercher la sécurité totale pour quelques-uns, mais augmenter  la sécurité globale pour rendre la surveillance de masse plus chère.</em> »</blockquote><ul>
+                                            <li>Il est illusoire de croire qu'une personne « ciblée » puisse protéger efficacement toutes ses communications</li>
+                                            <li>En créant un outil protecteur qui sera largement utilisé, on peut renchérir l'espionnage de masse suffisamment pour limiter les écoutes aux cas les plus graves pour la société.</li>
+                                            <li>La sécurité globale n'est pas la somme des sécurités individuelles. C'est seulement le fait de rendre l'espionnage de masse si difficile que seul l'espionnage individuel redevient rentable.</li>
+                                        </ul>
+                                </section>
+
+                                <section>
+                                    <p><blockquote>«  Il est impossible d'augmenter la sécurité sans rendre plus complexe l'expérience utilisateur. »</blockquote>
+                                    <ul>
+                                        <li>Plus la sécurité est élevée, plus on complique la vie de l'utilisateur. On ne peut pas, par exemple, indexer des documents chiffrés dont on a pas la clé privée.</li>
+                                        <li>Il faut trouver d'autres motivations que la seule protection de la vie privée pour que l'utilisateur accepte la perte de facilité.</li>
+                                        <li>En donnant une note à l'utilisateur, on le pousse à utiliser les fonctions de protection et à pousser ses contacts à faire de même.</li>
+                                    </ul>
+                                </section>
+
+                                <section>
+                                    <h2>Caliopen</h2>
+                                    <ul>
+                                        <li><a href="http://fr.wikipedia.org/wiki/Logiciel_libre">Logiciel libre</a> de messagerie sécurisée, aussi simple à déployer qu'un CMS, et respectant les standards.</li>
+                                        <li>L'UX (<a href="http://en.wikipedia.org/wiki/User_experience">User eXperience</a>) met l'accent sur la sécurité, et pousse à l'utilisation des <a href="http://fr.wikipedia.org/wiki/Chiffrement">outils de chiffrement</a> et à une plus grande responsabilisation des utilisateurs.</li>
+                                        <li>Un objectif clair : permettre l'existence d'un grand nombre de web-services basé sur CaliOpen, pour commencer à limiter la trop grande centralisation des communications privées.</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h2></h2>
+                                    <p>Pousser la réflexion sur le design le plus loin possible avant d'envisager les aspects techniques pour s'émanciper de l'existant (effet « page blanche »).
+                                    <ul>
+                                        <li>Plus de notion de « folders ».</li>
+                                        <li>Une conversation n'est plus définie par son sujet, mais par les contacts qui y participent.</li>
+                                        <li>Les notions « d'urgence » ou « d'indésirable » sont remplacées par un unique « niveau d'importance ».</li>
+                                        <li>Chaque élement de l'UI, de même que le compte de l'utilisateur et le terminal utilisé, a son propre « niveau de confidentialité » mis en évidence.</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h2></h2>
+                                 <img src="img/features_carrousel_1.png" alt=""/>
+                                </section>
+                                <section>
+                                    <h2></h2>
+                                <img src="img/features_carrousel_2.png" alt=""/>
+                                </section>
+                                <section>
+                                    <p>Le design n'est pas suffisant pour faire la « killer-app » dont nous avons besoin pour convaincre les utilisateurs à migrer.
+                                    <ul>
+                                        <li> Intégration en une interface unique de toute la correspondance privée (<span class="python-yellow">mail, PM, chat, irc...</span>),</li>
+                                        <li>Développement d'une API permettant l'ajout de nouveaux protocoles (vidéo, SMS...),</li>
+                                        <li>Facilité de déploiement, avec des configurations adaptées aux différents publics visé,</li>
+                                        <li>Effet « social » de la <a href="http://en.wikipedia.org/wiki/Gamification">gamification</a> : les contacts hors CaliOpen ont un niveau de confidentialité bas et sont poussés à changer leurs usages.</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h2></h2>
+                                <img src="img/features_carrousel_3.png" alt=""/>                                    
+                                </section>
+                                <section>
+                                    <h2></h2>
+                                    <p>La sécurité d'une communication ne se limite pas à une interface sécurisée.
+                                    <ul>
+                                        <li>Une <a href="http://en.wikipedia.org/wiki/User_interface">UI</a> seule ne peut pas avoir accès aux informations de transport (certificats, identification, chiffrement...). L'architecture doit intégrer les serveurs, leur configuration, et leur échanges avec l'UI.</li>
+                                        <li>Le terminal utilisé a une importance majeure : cas d'espèce de l'utilisateur qui veut accéder à une conversation sécurisée depuis un terminal public (mode dégradé).</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <img src="img/caliop_arch_proposal.png" alt="" />
+                                </section>
+                                <section>
+                                    <h2></h2>
+                                    <p>Pour que le produit conserve la confiance des utilisateurs sur le long terme, il faut un suivi des services qui l'utilisent.
+                                    <ul>
+                                        <li>Il faut penser une association, dont le rôle sera, au delà du développement et de l'évolution du produit, de labelliser les services qui y adhèreront.</li>
+                                        <li>Ce label doit garantir un niveau minimum de suivi (respect des mises à jours, audits de sécurité...).</li>
+                                        <li> Il doit aussi valider un tant soit peu le sérieux du modèle économique (pour garantir aux utilisateurs la pérennité de leurs données personnelles), et s'assurer que l'interdiction de vente d'informations personnelles à des tiers est respectée.</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h2></h2>
+                                    <p>En parallèle, le label peut permettre la création d'un réseau de services sécurisés par l'émission (et la révocation) de certificats permettant d'intégrer un <a href="http://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel">VPN</a> chiffré reliant les adhérents.</p>
+                                    <p>Quelques pistes :
+                                    <ul>
+                                        <li>Authentification à distance entre membres (<a href="http://fr.wikipedia.org/wiki/OAuth">OAUTH</a>) pour qu'un utilisateur d'un service puisse lire un document partagé par un de ses contacts sur un autre service, par exemple.</li>
+                                        <li>Partage des informations de contact (l'utilisateur du service A connait le niveau de confidentialité de son contact utilisateur du service B)</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h3>Aujourd'hui, nous avons besoin d'aide.</h3>
+                                    <p>Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (<a href="https://angularjs.org/">Angular</a>, <a href="http://www.pylonsproject.org/projects/pyramid/about">Pyramid</a>, <a href="https://www.python.org/">Python</a>).
+                                        Nous avons besoin de compétences dans le domaine de la <a href="http://fr.wikipedia.org/wiki/Cryptographie">cryptographie</a> aussi, pour valider nos choix ou pour les améliorer.</p>
+                                    <p>Et nous avons besoin d'aide dans le suivi et la direction de projet.</p>
+                                </section>
+                        </div>
+
+        </div>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+        <script src="js/jquery-1.11.1.min.js"></script>
+                <script>
+                    function resizeBackground(){
+                        var win_width = $(document).width();
+                        var img = $(".custom-background img");
+                        img.width(win_width);
+                    }
+
+
+                    $(window).on("resize",function(){
+                        resizeBackground();
+
+                    });
+
+                </script>
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+//               parallaxBackgroundImage: 'fond_slide_caliopen.jpg',
+//               parallaxBackgroundSize: '100% 100%',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
